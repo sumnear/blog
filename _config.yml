@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 # Site
 title: Sumnear's coding life
-subtitle: SEARCH FOR MY ONE PIECE
-description: coding回忆录
+subtitle: coding回忆录
+description: SEARCH FOR MY ONE PIECE
 keywords: coding
 author: Sumnear
 language: 
@@ -92,7 +92,7 @@ live2d:
   tagMode: false
   log: false
   model:
-    use: live2d-widget-model-hijiki
+    use: live2d-widget-model-z16
   display:
     position: right
     width: 150
