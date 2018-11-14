@@ -79,7 +79,9 @@ theme: hexo-theme-cube
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/sumnear/sumnear.github.io.git
+  branch: master
 
 live2d:
   enable: true

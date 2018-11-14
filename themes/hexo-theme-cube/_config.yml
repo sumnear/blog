@@ -2,15 +2,17 @@ theme: cube
 
 # background display for mobile, not for pc
 header:
-  background: http://cube-1252774894.cosgz.myqcloud.com/background.png
+  background: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/hzw1.jpg
+  #background: http://cube-1252774894.cosgz.myqcloud.com/background.png
   # both pc and mobile required title(make it the same as your hexo site _config.yml's title)
-  title: senrenbankaの部落格
+  title: Sumnear's coding life
+  subtitle: SEARCH FOR MY ONE PIECE
 
 
 # background display for pc
 # you can use url or path relative
 # `background: background.png` refers to the path "source/images/background.png"
-background: http://cube-1252774894.cosgz.myqcloud.com/background.png
+background: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/hzw1.jpg
 
 
 # the background image width and height (you can see your image file to get them)
@@ -57,18 +59,21 @@ menu:
 sidebar:
   links:
     - title: GitHub
-      url: https://github.com/ZEROKISEKI
+      url: https://github.com/sumnear
       # icon can be url or path
       icon: http://cube-1252774894.cosgz.myqcloud.com/links/GitHub.png
-    - title: Coding
-      url: https://coding.net/u/SORA1
+    - title: gitee
+      url: https://gitee.com/SumTeam
       icon: http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png
-    - title: SF社区
-      url: https://segmentfault.com/u/aonosora
-      icon: http://cube-1252774894.cosgz.myqcloud.com/links/SF.png
-    - title: 开发者头条
-      url: https://toutiao.io/u/148070
-      icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
+    - title: 网易云
+      url: https://music.163.com/#/user/home?id=109182388
+      icon: http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png
+   # - title: SF社区
+  #    url: https://segmentfault.com/u/aonosora
+   #   icon: http://cube-1252774894.cosgz.myqcloud.com/links/SF.png
+  #  - title: 开发者头条
+  #    url: https://toutiao.io/u/148070
+  #    icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
   friend_links:
     - title: 罗大佬
       url: https://blog.micblo.com/
