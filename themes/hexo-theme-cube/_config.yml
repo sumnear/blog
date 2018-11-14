@@ -123,6 +123,11 @@ music_setting:
 # you'd better place your music and image, lrc to another site, and use url instead of path
 # if you don't want to use this widget, just make that `music: `
 music:
+  - title: PerfectTime
+    author: 泽野弘之
+    source: https://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.mp3
+    lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
+    image: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.png
   - title: Dear friends
     author: TRIPLANE
     source: http://cube-1252774894.cosgz.myqcloud.com/music/source/TRIPLANE - Dear friends.mp3
