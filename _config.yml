@@ -7,7 +7,7 @@ subtitle: coding回忆录
 description: SEARCH FOR MY ONE PIECE
 keywords: coding
 author: Sumnear
-language: 
+language: zh-CN
 timezone: UTC
 
 # URL
@@ -94,8 +94,29 @@ live2d:
   model:
     use: live2d-widget-model-z16
   display:
-    position: right
-    width: 150
-    height: 300
+      superSample: 1.5
+      width: 150
+      height: 300
+      position: right
+      hOffset: 0
+      vOffset: -40
   mobile:
-    show: true  
+    show: true
+    scale: 0.5
+  react:
+     opacityDefault: 0.8
+     opacityOnHover: 0.2
+
+#搜索功能
+#   npm install hexo-generator-json-content --save
+jsonContent:
+  pages:
+    title: true
+    text: true
+    path: true
+    preview: true
+  posts:
+    title: true
+    text: true
+    path: true
+    preview: true

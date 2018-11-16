@@ -23,8 +23,8 @@ height: 1414
 # this variable is used to locate your background
 # for example, if you want to locate display your background from top
 # you just need to type it: position: 0
-position: 400
-
+#position: 400
+position: 200
 
 # this variable is used to make the background header being fuzzy
 # if your do not need the filter blur on the top, make it empty, it means that: `blur: `
@@ -86,6 +86,7 @@ sidebar:
       url: https://aonosora.com/
 
 # only path, refer to source/images
+#themes/hexo-theme-cube/source/images/friend_links.jpg
 friend_links: friend_links.jpg
 
 widgets:
@@ -113,7 +114,7 @@ music_setting:
   mode: circulation
   narrow: false
   mutex: true
-  showlrc: true
+  showlrc: false
   theme:
   preload: auto
   maxHeight: 513px
@@ -126,24 +127,20 @@ music:
   - title: PerfectTime
     author: 泽野弘之
     source: https://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.mp3
-    lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
+    #lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
     image: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.png
-  - title: Dear friends
-    author: TRIPLANE
-    source: http://cube-1252774894.cosgz.myqcloud.com/music/source/TRIPLANE - Dear friends.mp3
-    lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
-    image: http://cube-1252774894.cosgz.myqcloud.com/music/image/TRIPLANE - Dear friends.jpg
-  - title: Butter-Fly
-    author: 和田光司
-    source: http://cube-1252774894.cosgz.myqcloud.com/music/source/和田光司 - Butter-Fly (ピアノヴァージョン).mp3
-    lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Butter-Fly (ピアノヴァージョン) - 和田光司.lrc
-    image: http://cube-1252774894.cosgz.myqcloud.com/music/image/和田光司 - Butter-Fly (ピアノヴァージョン).jpg
-  - title: 宵闇花火
-    author: 葉月ゆら
-    source: http://cube-1252774894.cosgz.myqcloud.com/music/source/葉月ゆら - 宵闇花火.mp3
-    lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/宵闇花火 - 葉月ゆら.lrc
-    image: http://cube-1252774894.cosgz.myqcloud.com/music/image/葉月ゆら - 宵闇花火.jpg
 
+  - title: はるかな旅
+    author: 吉田洁
+    source: https://raw.githubusercontent.com/sumnear/blog/master/httpFiles/はるかな旅.mp3
+    #lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
+    image: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.png
+
+  - title: 春风再美也比不上你的笑，没见过你的人自然不会明了
+    author: 十指流玉
+    source: https://raw.githubusercontent.com/sumnear/blog/master/httpFiles/春风再美也比不上你的笑，没见过你的人自然不会明了.mp3
+    #lrc: http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc
+    image: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.png
 # before using the comment
 # make use you know how to set the params
 comment:
@@ -168,6 +165,6 @@ comment_setting:
     hide_notice: true
 
 analytics:
-  baidu:
+  baidu: b16dbde837be836c56dfa2bd15c1bb4c
   google:
   
