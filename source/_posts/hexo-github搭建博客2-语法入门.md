@@ -1,7 +1,7 @@
 ---
 title: hexo-github搭建博客2-语法入门
 date: 2018-11-15 13:31:02
-tags: hexo  markdown
+tags: [hexo ,markdown]
 categories: hexo
 ---
 

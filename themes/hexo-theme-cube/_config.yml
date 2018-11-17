@@ -75,15 +75,13 @@ sidebar:
   #    url: https://toutiao.io/u/148070
   #    icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
   friend_links:
-    - title: 罗大佬
-      url: https://blog.micblo.com/
+    - title: 主题作者
+      url: http://ZEROKISEKI.github.io
       # icon only url
-      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/micblo.png
-    - title: DIYgod
-      url: https://www.anotherhome.net/
-      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
-    - title: 咪西西の部落格
-      url: https://aonosora.com/
+    - title: 推荐人糜
+      url: https://mrkaorou.github.io
+      icon: https://mrkaorou.github.io/images/avatar.jpeg
+
 
 # only path, refer to source/images
 #themes/hexo-theme-cube/source/images/friend_links.jpg

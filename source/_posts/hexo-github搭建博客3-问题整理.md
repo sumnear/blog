@@ -58,5 +58,43 @@ live2d:
 \!\[你想输入的替代文字](xxxx/图片名.jpg)
 
 ### CNAME 问题  
-`gitpage`里面可以设置自己的域名访问，首先域名配置`CNAME` = 自己的 gitpage，然后在仓库设置 `custom domain` ；每次 hexo deploy 之后，custom domain 
-都会被重置为空，在hexo的`source目录`下 新建一个 `CANME 文件`，在里面写上你自己的域名，之后再提交就不会有问题啦！！
+`gitpage`里面可以设置自己的域名访问，首先域名配置`CNAME` = 自己的 gitpage，然后在仓库设置 `custom domain` ；  
+  每次 hexo deploy 之后，custom domain 都会被重置为空，在hexo的`source目录`下 新建一个 `CANME 文件`，在里面写上你自己的域名，之后再提交就不会有问题啦！！  
+
+### 搜索    
+[我用的主题](https://github.com/ZEROKISEKI/hexo-theme-cube)
+搜索框的设计样式参考了ppoffice的设计样式,只要进行输入即可进行对应的搜索, 此功能需要在您的Hexo站点上进行hexo-generator-json-content的安装和设置  
+`npm install hexo-generator-json-content --save`  
+然后在您的Hexo站点的_config.yml(非主题的_config.yml)上进行对应的设置:  
+```
+jsonContent:
+  pages:
+    title: true
+    text: true
+    path: true
+    preview: true
+  posts:
+    title: true
+    text: true
+    path: true
+    preview: true
+```
+
+
+### tags和categories页面
+默认是没有 categories 和 tags 的；
+```
+hexo new page "tags"  
+hexo new page "categories"  
+```
+
+
+编辑source下的tags和categories目录下的md文件  
+``` 
+type: "tags"
+layout: "tags"
+
+
+type: "categories"
+layout: "categories"
+```
