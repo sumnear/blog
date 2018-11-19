@@ -1,9 +1,11 @@
 <%- partial('_partial/head') %>
 <body>
-<div class="cube-body">
+<div class="cube-body" style="background-image: url(/images/background.png);  background-attachment: inherit;
+background-repeat: repeat-y;background-size: 1920px;
+                                  background-position: center;">
     <%- partial('_partial/menu') %>
     <%- partial('_partial/header') %>
-    <div class="cube-content">
+    <div class="cube-content" style="opacity:0.9">
         <div class="cube-left">
             <%- body %>
         </div>
