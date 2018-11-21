@@ -4,7 +4,7 @@
 # Site
 title: Sumnear's coding life
 subtitle: coding回忆录
-description: SEARCH FOR MY ONE PIECE
+description: 人间如梦，一樽还酹江月。
 keywords: coding
 author: Sumnear
 language: zh-CN
@@ -13,6 +13,7 @@ timezone: UTC
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://sumnear.top
+# github 就是 /    gitee 就是 /blog/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,7 +81,8 @@ theme: hexo-theme-cube
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/sumnear/sumnear.github.io.git
+  #repo: https://github.com/sumnear/sumnear.github.io.git
+  repo: https://gitee.com/sumnear/blog.git
   branch: master
 
 live2d:
