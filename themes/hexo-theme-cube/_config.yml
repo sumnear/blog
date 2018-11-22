@@ -141,12 +141,14 @@ music:
     image: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/PerfectTime.png
 # before using the comment
 # make use you know how to set the params
+
+#评论功能
 comment:
   # your disqus_shortname
   disqus:
   changyan:
-    appid:
-    conf:
+    appid: cytVJyyCD
+    conf: prod_f0e5e9a4bba3527f30be0c5785b04553
   youyan:
   # gitment: https://github.com/imsun/gitment
   # make sure you know how to set it
@@ -157,6 +159,7 @@ comment:
       client_id:
       client_secret:
 
+  #如果您使用了畅言, 要把畅言的浮动框 or 弹出框去掉, 可以进行下面的配置:
 # some setting about comment module
 comment_setting:
   changyan:
