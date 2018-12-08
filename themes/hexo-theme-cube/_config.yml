@@ -1,6 +1,7 @@
 theme: cube
 
 # background display for mobile, not for pc
+#
 header:
   background: http://raw.githubusercontent.com/sumnear/blog/master/httpFiles/hzw1.jpg
   #background: http://cube-1252774894.cosgz.myqcloud.com/background.png
